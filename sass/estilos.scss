@@ -1,0 +1,38 @@
+
+
+
+// Variables de colores
+
+$color_uno:#f9ed69;
+$color_dos:#f08a5d;
+$color_tres:#b83b5e;
+$color_cuatro:#6a2c70;
+
+
+
+h1{
+    color:yellowgreen;
+}
+
+footer{
+    background: $color_uno;
+    h4{
+        color:red;
+        a{
+            color:blue;
+        }
+    }
+}
+
+section{
+    background: $color_uno;
+    h1{
+        background: $color_dos;
+    }
+    h2{
+        background: $color_tres;
+    }
+    p{
+        background: $color_cuatro;
+    }
+} 
